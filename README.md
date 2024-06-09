@@ -1,16 +1,11 @@
-# 🚀 React & Tailwind CSS Boilerplate
+### 🚀 React & Tailwind CSS Boilerplate
 
 Welcome to the **React & Tailwind CSS Boilerplate**! Get your next project off the ground with this powerful, modern setup.
 
-## Features
-- ⚛️ **React**: A JavaScript library for building user interfaces
-- 💨 **Tailwind CSS**: A utility-first CSS framework for rapid UI development
-
-## Quick Start
 
 ### 1️⃣ Clone the Repo
 ```bash
-git clone (https://github.com/akshkgd/react-tailwnd-boilerplate.git)
+git clone https://github.com/akshkgd/react-tailwnd-boilerplate.git
 cd react-tailwind-boilerplate
 ```
 
