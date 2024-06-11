@@ -1,5 +1,6 @@
-import users from '../Users';
+import users from '../NewUsers';
 import { useParams } from 'react-router-dom';
+import Feed from '../components/Feed'
 function UserDetails(){
     let {username} = useParams();
     let user = users.find(user=> user.username == username)
@@ -17,6 +18,15 @@ function UserDetails(){
 
                     </div>
                 </div>
+            </div>
+
+            <div className="w-[800px] mx-auto">
+                <div className="flex gap-2 flex-wrap">
+                {
+                    user.posts.map(post=> <Feed img={post.image} id={post.id} />)
+                }
+                </div>
+                
             </div>
         </>
     )

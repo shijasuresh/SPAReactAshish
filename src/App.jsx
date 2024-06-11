@@ -4,6 +4,7 @@ import About from './pages/About'
 import Navbar from './components/Navbar'
 import Error from "./pages/Error";
 import Requests from "./pages/Requests";
+import Post from "./pages/Post";
 import UserDetails from "./pages/UserDetails";
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
 
 
        <Routes>
-        <Route path="/" element={<Home />} />  
+        <Route path="/" element={<Requests />} />  
         <Route path="/about" element={<About />} />
         <Route path="/requests" element={<Requests />} />  
         <Route path="/:username" element={<UserDetails/>} />
+        <Route path="/post/:id" element={<Post />} />
         <Route path="*" element={<Error/>} />
       </Routes> 
     </>

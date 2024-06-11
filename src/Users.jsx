@@ -53,14 +53,6 @@ const Users = [
         following: 300,
         username: "priya_finance"
     },
-    {
-        name: "Rohan",
-        profession: "Operations Manager",
-        image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHVzZXJ8ZW58MHwwfDB8fHww",
-        description: "Streamlining operations ⚙️ | Efficiency expert 📊 | Nature lover 🌲",
-        followers: 900,
-        following: 410,
-        username: "rohan_ops"
-    }
+    
 ];
 export default Users;
